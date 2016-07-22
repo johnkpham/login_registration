@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>Submitted Info</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='dojo_survey.css') }}">
+  <!-- linking a javascript file -->
+  <!-- <script type="text/javascript" src="{{ url_for('static', filename='my_script.js') }}"></script> -->
+  </head>
+  <body>
+    <div id="container">
+      <h3>Success! Welcome, {{ session['first_name'] }}!</h3>
+      <p>Successfully registered (or logged in)!</p>
+
+      <form action='/' method='GET' name=>
+        <input type='submit' name='Logout' value='logout'>
+      </form>  
+
+
+
+    </div>  
+
+    </body>
+</html>
